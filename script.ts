@@ -68,19 +68,21 @@ function checkWinning(){
             if(tile1 == X_PLAYER)
             {
                 X_SCORE.innerHTML = String(Number(X_SCORE.innerHTML) + 1);
+                gameOverScreen(tile1);
+                return
             }
             if(tile1 == O_PLAYER)
             {
                 O_SCORE.innerHTML = String(Number(O_SCORE.innerHTML) + 1);
+                gameOverScreen(tile1);
+                return
             }
-            gameOverScreen(tile1);
-            return
         }
     }
-    if(isListFull)
-    {
+        if(isListFull)
+        {
         gameOverScreen(null);
-    }
+        }
     
     
 }

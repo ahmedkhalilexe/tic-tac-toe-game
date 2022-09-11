@@ -110,7 +110,7 @@
     .tile{
         font-size: 1.5rem;
     }
-    .winnerContainer{
-        font-size: 3rem;
+    .winnerContainer #winner{
+        font-size: 2rem;
     }
   }

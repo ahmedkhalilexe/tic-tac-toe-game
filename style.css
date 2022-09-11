@@ -98,3 +98,14 @@
 .turnContainer #turn{
     font-weight: bold;
 }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px){
+    :root{
+        --tile-size : 80px;
+    }
+    .gridContainer{
+        width: 340px;
+    }
+
+  }

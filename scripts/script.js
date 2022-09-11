@@ -71,6 +71,7 @@ function checkWinning() {
                 O_SCORE.innerHTML = String(Number(O_SCORE.innerHTML) + 1);
             }
             gameOverScreen(tile1);
+            return;
         }
     }
     if (isListFull) {

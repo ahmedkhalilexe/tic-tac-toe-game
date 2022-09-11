@@ -23,7 +23,15 @@
   <body>
     <div class="gameContainer">
       <div class="heading">
-        <span id="winner"></span>
+        <div class="scoreContainer">
+          <span id="playerX"><i class="fa-solid fa-x"></i></span>
+          <div class="score">
+            <span id="scorex">0</span>
+            -
+            <span id="scoreo">0</span>
+          </div>
+          <span id="playerO"><i class="fa-solid fa-o"></i></span>
+        </div>
         <div class="turnContainer"><span id="turn">X</span>'s Turn</div>
       </div>
       <div class="gridContainer">
@@ -36,6 +44,10 @@
         <div class="tile" id="6"></div>
         <div class="tile" id="7"></div>
         <div class="tile" id="8"></div>
+      </div>
+      <div class="winnerContainer" id="winnerContainer">
+        <span id="winner"></span>
+        <button id="reset">Reset</button>
       </div>
     </div>
   </body>
